@@ -1,0 +1,26 @@
+.mainlabel {
+    font-weight: inherit;
+    text-align: left;
+    width: 100px;
+    clear: both;
+    float: left;
+    margin-right: 15px;
+}
+
+.lblBangDiem {
+    font-weight: inherit;
+    text-align: left;
+    width: 170px;
+    clear: both;
+    float: left;
+    padding-left: 15px;
+}
+
+.lblChuyenNganh {
+    font-weight: inherit;
+    margin-right: 5px;
+    text-align: left;
+    width: 110px;
+    clear: both;
+    float: left;
+}

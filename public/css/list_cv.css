@@ -1,0 +1,48 @@
+.template_cv {
+    text-align: center;
+    padding: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout-danger {
+    border-left-color: #0067AF;
+}
+
+.cv_img {
+    width: 300px;
+    height: 400px;
+}
+
+.show-image {
+    position: relative;
+    float:left;
+}
+.show-image:hover img{
+    opacity:0.5;
+}
+.show-image:hover button {
+    display: block;
+}
+.show-image button {
+    position:absolute;
+    display:none;
+}
+.show-image button.delete {
+    top:180px;
+    left:245px;
+}
+.show-image button.edit{
+    top:20px;
+    right:130px;
+}

@@ -1,0 +1,53 @@
+@media (min-width: 1750px) {
+    .projectname {
+        height: 150px;
+        padding-top: 10px;
+    }
+
+    .companyimg {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 3px;
+    }
+
+    .padding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .strike {
+        display: block;
+        text-align: left;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .strike > span {
+        padding-left: 30px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .strike > span:after {
+        content: "";
+        position: absolute;
+        top: 60%;
+        width: 9999px;
+        height: 1px;
+        background: #696969;
+    }
+
+    .strike > span:after {
+        left: 100%;
+        margin-left: 20px;
+    }
+
+    .info {
+        padding-left: 150px;
+    }
+
+    th, td {
+        text-align: center;
+    }
+
+}
